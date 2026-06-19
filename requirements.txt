@@ -1,0 +1,6 @@
+flask
+jinja
+speechrecognition
+deep-translator> GoogleTranslator
+sounddevice
+scipy
