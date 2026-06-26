@@ -4,3 +4,4 @@ speechrecognition
 deep-translator> GoogleTranslator
 sounddevice
 scipy
+

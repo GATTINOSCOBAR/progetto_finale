@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homepage</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/inglese.css') }}">
+    </head>
+    <body>
+        <h1>Benvenuto nel corso di INGLESE!</h1>
+        <div class="blue">
+            <h2>Pronto per una lezione di inglese!?</h2>
+        </div>
+        <div class="white">
+            <h2>Come è formata la lezione?</h2>
+            <h4>-ti verrà data una parola e tu la dovrai tradurre oralmente e in scritto</h4>
+            <h3>Pronto? Clicca il link per partire!</h3>
+        </div>
+    </body>
+    <a href="{{url_for('lezione_inglese')}}">lezione</a>
+    
+</html>
