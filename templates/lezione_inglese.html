@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>lezione_inglese</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/lezione_inglese.css') }}">
+    </head>
+    <body>
+        <form method="POST" action="/lEn">
+            <button type="submit">Registra e traduci</button>
+        </form>
+        {% if traduzione %}
+        <p>Traduzione: {{ traduzione }}</p>
+        {% endif %}
+
+    </body>
+    
+</html>

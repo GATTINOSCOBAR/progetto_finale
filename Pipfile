@@ -6,6 +6,10 @@ name = "pypi"
 [packages]
 flask = "*"
 jinja2 = "*"
+sounddevice = "*"
+scipy = "*"
+deep-translator = "*"
+speechrecognition = "*"
 
 [dev-packages]
 
