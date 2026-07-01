@@ -8,3 +8,11 @@ body {
 img {
     width: 10%;
 }
+.titolo {
+  text-align: center;
+  color: rgb(113, 10, 148) 
+}
+.sottotitolo {
+  text-align: center;
+  color: rgb(221, 88, 5) 
+}
