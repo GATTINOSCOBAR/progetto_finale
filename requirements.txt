@@ -5,3 +5,33 @@ deep-translator> GoogleTranslator
 sounddevice
 scipy
 
+
+.rec {
+  background-color: rgba(56, 189, 248, 1); /* Ciano #38BDF8 - accento */
+  color: rgba(15, 23, 42, 1);              /* Testo blu notte #0F172A */
+  border: none;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.15);
+}
+
+/* Hover: un po' più scuro */
+.btn-rec:hover {
+  background-color: rgba(14, 165, 233, 1); /* Ciano più scuro */
+}
+
+/* Quando sta registrando = stato attivo */
+.btn-rec.is-recording {
+  background-color: rgba(250, 204, 21, 1); /* Giallo fluo #FACC15 */
+  color: rgba(15, 23, 42, 1);
+  animation: pulse 1.2s infinite;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(250, 204, 21, 0.5); }
+ 100% { box-shadow: 0 0 0 10px rgba(250, 204, 21, 0); }
+}

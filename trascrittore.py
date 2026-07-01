@@ -4,7 +4,7 @@ import scipy.io.wavfile as wav
 
 def trascrittore(lingua):
     try:
-        durata_rec = 5
+        durata_rec = 3
         num_segm = 44100
 
         registrazione=sounddevice.rec(frames=(durata_rec * num_segm), samplerate=num_segm, channels=1, dtype='int16')
@@ -19,5 +19,5 @@ def trascrittore(lingua):
 
         return trascrizione
     except Exception as e:
-        return e
+        return str(e)
 

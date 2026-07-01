@@ -6,14 +6,21 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/homepage.css') }}">
     </head>
     <body>
-        <h1>Benvenuto nel corso di lingue</h1>
-        <h2>in questo sito sito è possibile imparare nuove lingue in diversi corsi</h2>
+        <h1>PABLINGO</h1>
+        <h2>con PABLINGO è possibile imparare nuove lingue in diversi corsi</h2>
         <h3>LISTA CORSI</h3>
         <div class="sezione-corso">
-            <h4>Inglese</h4>
-            <img src="{{url_for('static', filename='img/images.jpg')}}" alt="Bandiera">
+            <a href="{{url_for('inglese')}}">
+                <h4>Inglese</h4>
+                <img src="{{url_for('static', filename='img/images.jpg')}}" alt="Bandiera">
+            </a>
+        </div>
+        <div class="sezione-corso">
+            <a href="{{url_for('spagnolo')}}">
+                <h4>Spagnolo</h4>
+                <img src="{{url_for('static', filename='img/spagna.jpg')}}" alt="Bandiera">
+            </a>
         </div>
     </body>
-    <a href="{{url_for('inglese')}}">corso_inglese</a>
 
 </html>

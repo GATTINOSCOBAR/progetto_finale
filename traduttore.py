@@ -7,5 +7,5 @@ def traduttore(testo, lingua_partenza, lingua_arrivo):
 
         return traduzione
     except Exception as e:
-        return e
+        return str(e)
     
