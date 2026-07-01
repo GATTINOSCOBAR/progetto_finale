@@ -6,7 +6,11 @@ body {
 }
 .white {
     background-color: #df1717;
+    color:#d6f703
 }
 .word-to-translate {
     background-color: rgb(217, 200, 12);
+}
+.da-tradurre {
+    color:#056f05
 }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homepage</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/tedesco.css') }}">
+    </head>
+    <body>
+        <h1>Benvenuto nel corso di TEDESCO!</h1>
+        <a href="{{ url_for('homepage') }}">Torna alla homepage</a>
+
+        <div class="blue">
+            <h2>Pronto per una lezione di TEDESCO!?</h2>
+        </div>
+        <div class="white">
+            <h2>Come è formata la lezione?</h2>
+            <h4>-ti verrà data una parola e tu la dovrai tradurre oralmente e in scritto</h4>
+            <h3>Pronto? Clicca il link per partire!</h3>
+        </div>
+
+        {% if parola %}
+        <div class="word-to-translate">
+            <h2>Traduci questa parola in tedesco:</h2>
+            <h1 class="da-tradurre">{{ parola }}</h1>
+        </div>
+        {% endif %}
+
+        <div class="rec">
+            <form method="POST" action="/tedesco">
+                <input type="hidden" name="parola" value="{{ parola }}">
+                <input type="text" name="traduzione" placeholder="Traduci qui">
+                <button type="submit">Registra e traduci</button>
+            </form>
+        
+            {% if esito_vocale %}
+        <p>Esito vocale: {{ esito_vocale }}</p>
+        {% endif %}
+
+        {% if esito_scritto %}
+        <p>Esito scritto: {{ esito_scritto }}</p>
+        {% endif %}
+
+        {% if soluzione %}
+        <p>Soluzione corretta: <strong>{{ soluzione }}</strong></p>
+        {% endif %}
+        </div>
+    </body>
+    
+</html>
