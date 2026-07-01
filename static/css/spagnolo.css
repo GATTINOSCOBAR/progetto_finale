@@ -1,9 +1,12 @@
 body {
-    background-color: rgb(233, 67, 11);
+    background-color: rgb(217, 200, 12);
 }
 .blue {
-    background-color: rgba(56, 189, 248, 1);
+    background-color: #df1717;
 }
 .white {
-    background-color: rgba(244, 122, 7, 0.974);
+    background-color: #df1717;
+}
+.word-to-translate {
+    background-color: rgb(217, 200, 12);
 }

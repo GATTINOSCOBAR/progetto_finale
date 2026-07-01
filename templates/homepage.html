@@ -9,6 +9,7 @@
         <h1>PABLINGO</h1>
         <h2>con PABLINGO è possibile imparare nuove lingue in diversi corsi</h2>
         <h3>LISTA CORSI</h3>
+        <h4>clicca sulla bandiera del corso che vuoi intraprendere</h4>
         <div class="sezione-corso">
             <a href="{{url_for('inglese')}}">
                 <h4>Inglese</h4>
@@ -19,6 +20,12 @@
             <a href="{{url_for('spagnolo')}}">
                 <h4>Spagnolo</h4>
                 <img src="{{url_for('static', filename='img/spagna.jpg')}}" alt="Bandiera">
+            </a>
+        </div>
+                <div class="sezione-corso">
+            <a href="{{url_for('francese')}}">
+                <h4>Francese</h4>
+                <img src="{{url_for('static', filename='img/francia.jpg')}}" alt="Bandiera">
             </a>
         </div>
     </body>

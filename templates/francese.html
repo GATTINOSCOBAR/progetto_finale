@@ -2,14 +2,14 @@
 <html>
     <head>
         <title>Homepage</title>
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/spagnolo.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/francese.css') }}">
     </head>
     <body>
-        <h1>Benvenuto nel corso di SPAGNOLO!</h1>
+        <h1>Benvenuto nel corso di FRANCESE!</h1>
         <a href="{{ url_for('homepage') }}">Torna alla homepage</a>
 
         <div class="blue">
-            <h2>Pronto per una lezione di spagnolo!?</h2>
+            <h2>Pronto per una lezione di francese!?</h2>
         </div>
         <div class="white">
             <h2>Come è formata la lezione?</h2>
@@ -19,13 +19,13 @@
 
         {% if parola %}
         <div class="word-to-translate">
-            <h2>Traduci questa parola in spagnolo:</h2>
+            <h2>Traduci questa parola in francese:</h2>
             <h1 class="da-tradurre">{{ parola }}</h1>
         </div>
         {% endif %}
 
         <div class="rec">
-            <form method="POST" action="/spagnolo">
+            <form method="POST" action="/francese">
                 <input type="hidden" name="parola" value="{{ parola }}">
                 <input type="text" name="traduzione" placeholder="Traduci qui">
                 <button type="submit">Registra e traduci</button>
