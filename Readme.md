@@ -29,6 +29,14 @@ Un form è il pezzo di html che serve a far inserire dati all’utente
 
 ### Riguardo la grafica
 
+ho cercato di riportere con gli sfondi i colori delle bandiere dei vari corsi
+
+inizialmente avevo fatto l'homepage con uno sfondo chiaro ma adesso l'ho reso scuro
+
+
+
+
+
 
 
 
