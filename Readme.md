@@ -15,8 +15,7 @@ traduttore:
 
 ## Continuazione:
 -ho creato l'homepage
--sto creando il corso d'inglese
--una volta finito il corso d'inglese comincierò con facilità gli altri corsi
+-ho creato il corso d'inglese, francese, spagnolo, tedesco
 -sto finendo di implementare la logica di riconoscitore,trascrittore e traduttore
 -sto ritoccando la grafica
 
