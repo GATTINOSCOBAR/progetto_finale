@@ -1,9 +1,9 @@
 
 body {
-    background-color: rgba(250, 204, 21, 1);
+    background-color: rgb(8, 7, 1);
 }
 .sezione-corso {
-    background-color: rgb(56, 189, 248, 1);
+    background-color: rgb(10, 243, 211);
 }
 img {
     width: 10%;
@@ -15,4 +15,10 @@ img {
 .sottotitolo {
   text-align: center;
   color: rgb(221, 88, 5) 
+}
+.list {
+  color: rgb(10, 243, 211) 
+}
+.clic {
+  color: rgb(240, 239, 238) 
 }

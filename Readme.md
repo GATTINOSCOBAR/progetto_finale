@@ -27,6 +27,11 @@ implementando la logica ho imparato anche cose nuove che prima non sapevo come c
 
 Un form è il pezzo di html che serve a far inserire dati all’utente
 
+### Riguardo la grafica
+
+
+
+
 
 
 
