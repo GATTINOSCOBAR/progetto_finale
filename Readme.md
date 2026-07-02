@@ -5,7 +5,6 @@
 ### Le librerie che ho utilizzato:
 sito web:
     -flask
-    -jinja2
     -BeautifulSoup 
 riconoscimento vocale e trascrittore:
     -speechrecognition
