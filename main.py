@@ -6,7 +6,7 @@ import random
 
 app = Flask(__name__)
 
-parole = ['cane', 'gatto', 'topo']
+parole = ['cane', 'gatto', 'topo', 'casa', 'albero', 'sole', 'luna', 'stella', 'mare', 'montagna', 'fiume', 'lago', 'cielo', 'nuvola', 'pioggia', 'vento', 'neve', 'fiore', 'prato', 'bosco', 'strada', 'città', 'paese', 'scuola', 'libro', 'penna', 'quaderno', 'zaino', 'banco', 'sedia', 'tavolo', 'finestra', 'porta', 'muro', 'tetto', 'giardino', 'cane', 'gatto', 'cavallo', 'uccello', 'pesce', 'farfalla', 'ape', 'formica', 'bambino', 'ragazza', 'uomo', 'donna', 'amico', 'famiglia', 'madre', 'padre', 'fratello', 'sorella', 'nonno', 'nonna', 'sorriso', 'occhi', 'mani', 'piedi', 'cuore', 'mente', 'voce', 'musica', 'canzone', 'arte', 'quadro', 'colore', 'rosso', 'blu', 'verde', 'giallo', 'nero', 'bianco', 'arancione', 'viola', 'grigio', 'cibo', 'pane', 'pasta', 'pizza', 'riso', 'mela', 'pera', 'banana', 'arancia', 'fragola', 'acqua', 'latte', 'caffè', 'tè', 'zucchero', 'sale', 'lavoro', 'ufficio', 'computer', 'telefono', 'internet', 'schermo', 'tastiera', 'mouse', 'programma', 'gioco', 'sport', 'calcio', 'basket', 'tennis', 'corsa', 'bicicletta', 'viaggio', 'treno', 'autobus', 'automobile', 'aereo', 'nave', 'valigia', 'mappa', 'fotografia', 'film', 'teatro', 'museo', 'biblioteca', 'mercato', 'negozio', 'denaro', 'tempo', 'giorno', 'notte', 'mattina', 'pomeriggio', 'sera', 'settimana', 'mese', 'anno', 'estate', 'inverno', 'primavera', 'autunno', 'felicità', 'speranza', 'coraggio', 'pace', 'libertà', 'sogno', 'futuro', 'passato', 'presente', 'successo', 'idea', 'progetto', 'energia', 'natura', 'universo']
 
 
 @app.route("/")
